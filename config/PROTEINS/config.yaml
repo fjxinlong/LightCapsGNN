@@ -1,0 +1,14 @@
+dataset: PROTEINS
+epochs: 400
+batch_size: 32
+features_dimensions: 64
+capsule_dimensions: 6
+capsule_num: 10
+dropout: 0.7
+theta: 0.1
+weight_decay: 1e-3
+devices: [0]
+lr: 0.005
+# lr 0.01  93.5
+lr_decay_step_size: 250
+k: 5

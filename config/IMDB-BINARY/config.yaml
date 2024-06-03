@@ -1,0 +1,12 @@
+dataset: IMDB-BINARY
+epochs: 100
+batch_size: 64
+capsule_dimensions: 4
+capsule_num: 15
+dropout: 0.3
+theta: 0.1
+lr: 0.02
+weight_decay: 5e-5
+devices: [0]
+lr_decay_step_size: 50
+k: 8

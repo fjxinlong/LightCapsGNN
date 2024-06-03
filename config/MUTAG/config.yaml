@@ -1,0 +1,28 @@
+## 93.65
+#dataset: MUTAG
+#epochs: 1000
+#batch_size: 32
+#capsule_dimensions: 8
+#capsule_num: 10
+#dropout: 0.3
+#theta: 0.1
+#weight_decay: 1e-5
+#devices: [3]
+#lr: 0.005
+## lr 0.01  93.5
+#lr_decay_step_size: 250
+
+
+dataset: MUTAG
+epochs: 1000
+batch_size: 16
+capsule_dimensions: 8
+capsule_num: 15
+dropout: 0.7
+theta: 0.2
+weight_decay: 0.00001
+devices: [0]
+lr: 0.003
+lr_decay_step_size: 250
+k: 10
+k2: 5

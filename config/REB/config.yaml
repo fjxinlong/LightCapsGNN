@@ -1,0 +1,16 @@
+dataset: REDDIT-BINARY
+epochs: 100
+batch_size: 128
+capsule_dimensions: 8
+capsule_num: 15
+# dropout: 0.3
+dropout: 0.7
+theta: 0.1
+#weight_decay: 0.0001
+weight_decay: 1e-5
+devices: [0]
+lr: 0.005
+lr_decay_step_size: 50
+k: 3
+num_iterations: 7
+num_gcn_layers: 6
